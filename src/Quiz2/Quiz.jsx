@@ -1,5 +1,6 @@
 import {useEffect, useMemo, useState} from "react";
-import {questionsData} from "../data.js";
+import {questionsData} from "../data/dataNew.js";
+import styles from "./Quiz.module.scss"
 
 
 const Quiz = () => {
