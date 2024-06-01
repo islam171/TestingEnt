@@ -67,7 +67,7 @@ const Quiz = () => {
     }
 
 
-    return (<>
+    return (<div className={styles.Quiz}>
         {status === 'isProcess' && <>
             {currentQuestion ? <div>
                 <p onClick={() => setIsShowAnswer(prev => !prev)}>{!isShowAnswer ? currentQuestion.questions : currentQuestion.answer}</p>
@@ -78,7 +78,7 @@ const Quiz = () => {
 
         }
 
-    </>)
+    </div>)
 }
 
 export default Quiz
