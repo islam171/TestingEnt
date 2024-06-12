@@ -1,6 +1,9 @@
 import {useEffect, useMemo, useState} from "react";
-import {questionsData} from "../data/dataNew.js";
+import {questionsData} from "../../../data/questionDataNew.js";
 import styles from "./Quiz.module.scss"
+import QuizWrapper from "../QuizWrapper/QuizWrapper.jsx";
+import cn from "classnames";
+import QuizCard from "../QuizCard/QuizCard.jsx";
 
 
 const Quiz = () => {
@@ -28,9 +31,6 @@ const Quiz = () => {
         setCurrentIndex(0)
         setIsShowAnswer(false)
         setStatus("isProcess")
-    }
-    const stopTest = () => {
-
     }
 
     const writeAnswer = (que, selectedOption) => {
@@ -68,14 +68,19 @@ const Quiz = () => {
 
 
     return (<div className={styles.Quiz}>
-        {status === 'isProcess' && <>
-            {currentQuestion ? <div>
-                <p onClick={() => setIsShowAnswer(prev => !prev)}>{!isShowAnswer ? currentQuestion.questions : currentQuestion.answer}</p>
-                <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
-                <button onClick={() => writeAnswer(currentQuestion, false)}>Неверно</button>
-            </div> : <>Loading...</>}
-        </>
 
+        {status === 'isProcess' && <>
+            {currentQuestion ? (
+                <QuizWrapper>
+                    <QuizCard currentQuestion={currentQuestion} setIsShowAnswer={setIsShowAnswer}
+                              isShowAnswer={isShowAnswer}/>
+                    <div className={styles.Quiz__control}>
+                        <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
+                        <button onClick={() => writeAnswer(currentQuestion, false)}>Неверно</button>
+                    </div>
+                </QuizWrapper>
+            ) : <>Loading...</>}
+        </>
         }
 
     </div>)

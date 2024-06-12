@@ -1,0 +1,13 @@
+.Quiz {
+  width: 100%;
+
+  &__control{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+      background-color: var(--primary-color);
+      color: white;
+    }
+  }
+}
