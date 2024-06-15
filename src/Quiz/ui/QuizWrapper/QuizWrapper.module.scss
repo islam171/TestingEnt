@@ -4,9 +4,9 @@
   flex-direction: column;
   gap: 50px;
   padding: 20px;
-  width: 650px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
+    padding: 0;
   }
 }

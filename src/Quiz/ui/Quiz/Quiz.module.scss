@@ -10,4 +10,18 @@
       color: white;
     }
   }
+
+  &__over{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+      margin: 10px 0;
+    }
+  }
+}
+
+.wrapper{
+  padding: 30px;
 }

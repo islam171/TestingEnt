@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Quiz from "./Quiz/ui/Quiz/Quiz.jsx";
+import Home from "./pages/Home/Home.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <div className={"wrapper"}>
-        <Quiz />
+        <Home/>
     </div>
 )

@@ -1,0 +1,29 @@
+.Selection {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	overflow-x: auto;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.item {
+	padding: 5px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.5s ease-in-out;
+	background-color: var(--gray__800);
+	white-space: nowrap;
+}
+
+@media screen and (min-width: 992px) {
+	.item:hover {
+		opacity: 0.7;
+	}
+}
+
+.active {
+	background-color: var(--primary-color);
+	opacity: 1;
+	color: white;
+}
