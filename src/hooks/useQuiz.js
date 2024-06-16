@@ -66,7 +66,6 @@ export const useQuiz = () => {
         setPeriod(value)
         Zeroing()
         setStatus('notStarted')
-
     }
 
     return {actions: {writeAnswer, startQuiz, currentQuestion, setIsShowAnswer, setPeriodValue}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress}}
