@@ -13,7 +13,7 @@ const Home = () => {
     } = useQuiz()
 
 
-    const periods = [{name: "20 век", slug: 4}, {name: "Средневековье", slug: 2},{name: "Древний мир", slug: 1},]
+    const periods = [{name: "20 век", slug: 3}, {name: "Средневековье", slug: 2},{name: "Древний мир", slug: 1},]
 
     return <div className={styles.Home}>
         <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
