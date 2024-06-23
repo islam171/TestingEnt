@@ -3,7 +3,7 @@ import QuizWrapper from "../QuizWrapper/QuizWrapper.jsx";
 import QuizCard from "../QuizCard/QuizCard.jsx";
 
 
-const Quiz = ({currentQuestion, status, setIsShowAnswer, isShowAnswer, writeAnswer, startQuiz}) => {
+const Quiz = ({currentQuestion, status, flipCard, isShowAnswer, writeAnswer, startQuiz}) => {
 
     if (status === 'notStarted') {
         return <div className={styles.wrapper}>
@@ -20,11 +20,10 @@ const Quiz = ({currentQuestion, status, setIsShowAnswer, isShowAnswer, writeAnsw
 
 
     return (<div className={styles.Quiz}>
-
         {status === 'isProcess' && <>
             {currentQuestion ? (
                 <QuizWrapper>
-                    <QuizCard currentQuestion={currentQuestion} setIsShowAnswer={setIsShowAnswer}
+                    <QuizCard currentQuestion={currentQuestion} flipCard={flipCard}
                               isShowAnswer={isShowAnswer}/>
                     <div className={styles.Quiz__control}>
                         <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>

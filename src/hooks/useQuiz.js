@@ -8,7 +8,8 @@ export const useQuiz = () => {
     const [isShowAnswer, setIsShowAnswer] = useState(false)
     const [wrongAnswer, setWrongAnswer] = useState([])
     const [goodAnswer, setGoodAnswer] = useState([])
-    const [period, setPeriod] = useState(2)
+    const [period, setPeriod] = useState(1)
+    const [questions, setQuestions] = useState([])
 
     const startQuestions = questionsData.filter(item => item.period === period)
 
@@ -16,15 +17,48 @@ export const useQuiz = () => {
         return array.sort(() => Math.random() - 0.5);
     }
 
-    const [questions, setQuestions] = useState([])
+    const flipCard = () => {
+        setIsShowAnswer(prev => !prev)
+    }
+
+
+    let progress = ((goodAnswer.length / startQuestions.length) * 100)
+    const currentQuestion = useMemo(() => questions[currentIndex], [currentIndex, questions])
+
+
     useEffect(() => {
         setQuestions(shuffle(startQuestions))
     }, []);
 
 
-    let progress = ((goodAnswer.length / startQuestions.length) * 100)
+    useEffect(() => {
+        const handleKeyDown = e => {
+            switch (e.key) {
+                case ' ': {
+                    e.preventDefault()
+                    flipCard()
+                    break
+                }
+                case 'ArrowRight':
+                    writeAnswer(currentQuestion, true)
+                    break
+                case 'ArrowLeft':
+                    writeAnswer(currentQuestion, false)
+                    break
+                case 'Enter':
+                    writeAnswer(currentQuestion, true)
+                    break
+                case 'Backspace':
+                    writeAnswer(currentQuestion, false)
+                    break
+                default:
+                    return
+            }
+        }
+        document.addEventListener('keydown', handleKeyDown)
+        return () => document.removeEventListener('keydown', handleKeyDown)
+    }, [flipCard])
 
-    const currentQuestion = useMemo(() => questions[currentIndex], [currentIndex, questions])
 
     const startQuiz = () => {
         Zeroing()
@@ -68,5 +102,5 @@ export const useQuiz = () => {
         setStatus('notStarted')
     }
 
-    return {actions: {writeAnswer, startQuiz, currentQuestion, setIsShowAnswer, setPeriodValue}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress}}
+    return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress}}
 }

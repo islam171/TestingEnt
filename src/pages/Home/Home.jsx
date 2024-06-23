@@ -9,11 +9,15 @@ const Home = () => {
 
     const {
         variable: {isShowAnswer, currentQuestion, status, period, progress},
-        actions: {writeAnswer, startQuiz, setIsShowAnswer, setPeriodValue}
+        actions: {writeAnswer, startQuiz, flipCard, setPeriodValue}
     } = useQuiz()
 
 
-    const periods = [{name: "20 век", slug: 3}, {name: "Средневековье", slug: 2},{name: "Древний мир", slug: 1},]
+    const periods = [
+        {name: "Древний мир", slug: 1},
+        {name: "Средневековье", slug: 2},
+        {name: "20 век", slug: 3}
+    ]
 
     return <div className={styles.Home}>
         <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
@@ -21,7 +25,7 @@ const Home = () => {
         <Quiz
             writeAnswer={writeAnswer}
             status={status}
-            setIsShowAnswer={setIsShowAnswer}
+            flipCard={flipCard}
             isShowAnswer={isShowAnswer}
             currentQuestion={currentQuestion}
             startQuiz={startQuiz}/>
