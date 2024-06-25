@@ -123,7 +123,7 @@ export const questionsData = [
         id: 25,
         "questions": "Автором произведения 'В чем заключается богатство'?",
         "answer": "Ыбрай Алтынсарин",
-        period: 3
+        period: 2
     },{
         id: 26,
         "questions": "Когда был принят закон 'О языках'",
@@ -427,7 +427,7 @@ export const questionsData = [
     },{
         id: 86,
         "questions": "Когда был построен первый педагогический университет в Казахстана?",
-        "answer": "1923 им Абая",
+        "answer": "1928 им Абая",
         period: 3
     },{
         id: 87,
@@ -451,7 +451,7 @@ export const questionsData = [
         period: 3
     }, {
         id: 91,
-        "questions": "Кто выступал против Целина:",
+        "questions": "Кто выступал против Целинаы?",
         "answer": "Шаяхметов (Первый секретарь в ЦК КПК)",
         period: 3
     },{
@@ -743,7 +743,7 @@ export const questionsData = [
         id: 149,
         "questions": "Столыпинская реформа образовала Переселенческий фонд, с целью?",
         "answer": "Изъятие земель у казахов",
-        period: 2
+        period: 3
     },{
         id: 150,
         "questions": "С какой целью Тауекель хан поехал в Москву в 1594 г?",
@@ -966,7 +966,7 @@ export const questionsData = [
         period: 2
     },{
         id: 197,
-        "questions": "в каком году был основан город Костанай",
+        "questions": "В каком году был основан город Костанай",
         "answer": "1879",
         period: 2
     },{
@@ -1352,7 +1352,7 @@ export const questionsData = [
     },{
         id: 285,
         "questions": "Сакский курган сооруженный в 4-5веках до н.э?",
-        "answer": "Битянь",
+        "answer": "Бесшатыр",
         period: 1
     },{
         id: 286,
@@ -1471,7 +1471,7 @@ export const questionsData = [
         period: 1
     },{
         id: 309,
-        "questions": "Кто и следовал сооружение Акыртас?",
+        "questions": "Кто иследовал сооружение Акыртас?",
         "answer": "К.Байпаков",
         period: 1
     },{
@@ -1498,11 +1498,6 @@ export const questionsData = [
         id: 314,
         "questions": "Первым исследовал Шиликтинские памятники в 1960-ые г?",
         "answer": "С.Черников",
-        period: 1
-    },{
-        id: 315,
-        "questions": "Кто открыл энеолитические поселения Ботай?",
-        "answer": "Зайберт",
         period: 1
     },{
         id: 316,
@@ -1548,11 +1543,6 @@ export const questionsData = [
         id: 324,
         "questions": "Люди стали меньше зависели от природы (эпоха)",
         "answer": "Неолит",
-        period: 1
-    },{
-        id: 325,
-        "questions": "Кто открыт поселение Ботай?",
-        "answer": "Зайберт",
         period: 1
     },{
         id: 326,
@@ -1616,7 +1606,7 @@ export const questionsData = [
         period: 1
     },{
         id: 338,
-        "questions": "Кто восстановил власть династии Улуса на этнической территории",
+        "questions": "Кто восстановил власть династии Уруса на этнической территории",
         "answer": "Касым хан",
         period: 2
     },{
@@ -1643,7 +1633,7 @@ export const questionsData = [
         id: 343,
         "questions": "Кто был во главее Диуана?",
         "answer": "Везир",
-        period: 3
+        period: 1
     },{
         id: 344,
         "questions": "Когда была образовано Букеевская Орда?",
@@ -1668,7 +1658,7 @@ export const questionsData = [
         id: 347,
         "questions": "Амангельды Иманов является сардабеком какой области?",
         "answer": "Тургаяской области",
-        period: 2
+        period: 3
     },{
         id: 348,
         "questions": "Итоги коллективизации?",
@@ -1698,7 +1688,7 @@ export const questionsData = [
         id: 352,
         "questions": "Первый пароход по реке Или 1883 г спустили с китайской крепости?",
         "answer": "Суй-Дунь",
-        period: 3
+        period: 2
     },{
         id: 353,
         "questions": "Столица Огузов?",
@@ -1818,6 +1808,11 @@ export const questionsData = [
         id: 372,
         "questions": "Метал завод который дал первые плоды в 1947г?",
         "answer": "1947 г свинцово-цинковый комбинат в Усть-Каменогорске",
+        period: 3
+    },{
+        id: 373,
+        "questions": "В каком году вышла постоновления 'О переносе столицы'?",
+        "answer": "1994 г",
         period: 3
     },
 ]
