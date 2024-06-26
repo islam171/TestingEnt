@@ -16,7 +16,8 @@ const Home = () => {
     const periods = [
         {name: "Древний мир", slug: 1},
         {name: "Средневековье", slug: 2},
-        {name: "20 век", slug: 3}
+        {name: "Новое время", slug: 3},
+        {name: "Новейшая время", slug: 4}
     ]
 
     return <div className={styles.Home}>
