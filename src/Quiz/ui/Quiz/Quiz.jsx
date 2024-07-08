@@ -26,8 +26,8 @@ const Quiz = ({currentQuestion, status, flipCard, isShowAnswer, writeAnswer, sta
                     <QuizCard currentQuestion={currentQuestion} flipCard={flipCard}
                               isShowAnswer={isShowAnswer}/>
                     <div className={styles.Quiz__control}>
-                        <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
                         <button onClick={() => writeAnswer(currentQuestion, false)}>Неверно</button>
+                        <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
                     </div>
                 </QuizWrapper>
             ) : <>Loading...</>}

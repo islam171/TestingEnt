@@ -1,7 +1,7 @@
 import {useEffect, useMemo, useState} from "react";
-import {questionsData} from "../data/questionDataNew.js";
 
-export const useQuiz = () => {
+
+export const useQuiz = (questionsData) => {
 
     const [currentIndex, setCurrentIndex] = useState(0)
     const [status, setStatus] = useState('notStarted')

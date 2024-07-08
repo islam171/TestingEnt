@@ -1,27 +1,21 @@
-import styles from "./Home.module.scss"
-import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
-import Selection from "../../feuture/Selection/Selection.jsx";
 import {useQuiz} from "../../hooks/useQuiz.js";
+import Selection from "../../feuture/Selection/Selection.jsx";
 import ProgressBar from "../../feuture/ProgressBar/ProgressBar.jsx";
-import {questionsData} from "../../data/questionDataNew.js";
+import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
+import {englishData} from "../../data/englishData.js";
 
-const Home = () => {
-
+const English = () => {
 
     const {
         variable: {isShowAnswer, currentQuestion, status, period, progress},
         actions: {writeAnswer, startQuiz, flipCard, setPeriodValue}
-    } = useQuiz(questionsData)
-
+    } = useQuiz(englishData)
 
     const periods = [
-        {name: "Древний мир", slug: 1},
-        {name: "Средневековье", slug: 2},
-        {name: "Новое время", slug: 3},
-        {name: "Новейшая время", slug: 4}
+        {name: "Фразы", slug: 1},
     ]
 
-    return <div className={styles.Home}>
+    return <div>
         <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
         <ProgressBar progress={progress}/>
         <Quiz
@@ -34,4 +28,4 @@ const Home = () => {
     </div>
 }
 
-export default Home
+export default English
