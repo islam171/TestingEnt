@@ -3,6 +3,7 @@ import Selection from "../../feuture/Selection/Selection.jsx";
 import ProgressBar from "../../feuture/ProgressBar/ProgressBar.jsx";
 import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
 import {englishData} from "../../data/englishData.js";
+import {Link} from "react-router-dom";
 
 const English = () => {
 
@@ -16,6 +17,7 @@ const English = () => {
     ]
 
     return <div>
+        <Link to={"/"}>Главная</Link>
         <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
         <ProgressBar progress={progress}/>
         <Quiz
