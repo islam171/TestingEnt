@@ -64,5 +64,45 @@ export const englishData = [
         questions: "Could you clarify ... ",
         answer: "Ты мог бы поеснить (существительное)",
         period: 1
-    },
+    },{
+        id: 14,
+        questions: "Я на кухне",
+        answer: "I'm in my kitchen",
+        period: 2
+    },{
+        id: 15,
+        questions: "Давайте сделаем чай",
+        answer: "Let's make some tea",
+        period: 2
+    },{
+        id: 15,
+        questions: "Включить чайник",
+        answer: "Turn the kettle on",
+        period: 2
+    },{
+        id: 16,
+        questions: "Не мог бы ты сделать чай?",
+        answer: "Can you make some tea?",
+        period: 2
+    },{
+        id: 17,
+        questions: "Готовить",
+        answer: "Cook",
+        period: 2
+    },{
+        id: 18,
+        questions: "Духовка",
+        answer: "Oven",
+        period: 2
+    },{
+        id: 19,
+        questions: "Запекать",
+        answer: "Bake",
+        period: 2
+    },{
+        id: 20,
+        questions: "Решетки в духовке",
+        answer: "Oven racks",
+        period: 2
+    }
 ]
