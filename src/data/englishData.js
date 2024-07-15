@@ -104,5 +104,60 @@ export const englishData = [
         questions: "Решетки в духовке",
         answer: "Oven racks",
         period: 2
+    },{
+        id: 21,
+        questions: "What's the best way to approach ....",
+        answer: "Какой лучший подход к (существительное или gerund)",
+        period: 1
+    },{
+        id: 22,
+        questions: "What's your perspective on ....",
+        answer: "Как ты думаешь об (существительное или gerund)",
+        period: 1
+    },{
+        id: 23,
+        questions: "Could you clarify ... ",
+        answer: "Ты мог бы поеснить (существительное)",
+        period: 1
+    },{
+        id: 24,
+        questions: "Я на кухне",
+        answer: "I'm in my kitchen",
+        period: 2
+    },{
+        id: 25,
+        questions: "Давайте сделаем чай",
+        answer: "Let's make some tea",
+        period: 2
+    },{
+        id: 25,
+        questions: "Включить чайник",
+        answer: "Turn the kettle on",
+        period: 2
+    },{
+        id: 26,
+        questions: "Не мог бы ты сделать чай?",
+        answer: "Can you make some tea?",
+        period: 2
+    },{
+        id: 27,
+        questions: "Готовить",
+        answer: "Cook",
+        period: 2
+    },{
+        id: 28,
+        questions: "Духовка",
+        answer: "Oven",
+        period: 2
+    },{
+        id: 29,
+        questions: "Запекать",
+        answer: "Bake",
+        period: 2
+    },{
+        id: 30,
+        questions: "Решетки в духовке",
+        answer: "Oven racks",
+        period: 2
     }
 ]
