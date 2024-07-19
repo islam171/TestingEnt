@@ -159,5 +159,90 @@ export const englishData = [
         questions: "Решетки в духовке",
         answer: "Oven racks",
         period: 2
+    },{
+        id: 31,
+        questions: "Привет как дела?",
+        answer: "Hey, How's is going. What's up",
+        period: 3
+    },{
+        id: 32,
+        questions: "Давно не видились?",
+        answer: "It's been so long",
+        period: 3
+    },{
+        id: 33,
+        questions: "Не беспокойся, Раслабся?",
+        answer: "Take it easy",
+        period: 3
+    },{
+        id: 34,
+        questions: "Не беспопкоёся. Нечего страшного. Мы отвечаем когда говорят спасибо",
+        answer: "No worries",
+        period: 3
+    },{
+        id: 35,
+        questions: "Звучит хорошо. Соглашение",
+        answer: "Sounds good",
+        period: 3
+    },{
+        id: 36,
+        questions: "Я опаздываю",
+        answer: "I am running late",
+        period: 3
+    },{
+        id: 37,
+        questions: "Увидимся позже",
+        answer: "Catch you later",
+        period: 3
+    },{
+        id: 38,
+        questions: "Уже в пути",
+        answer: "I'm on my way",
+        period: 3
+    },{
+        id: 39,
+        questions: "Подождите секундочку",
+        answer: "Hang on a sec",
+        period: 3
+    },{
+        id: 40,
+        questions: "Скоро вернусь",
+        answer: "I'll be right back",
+        period: 3
+    },{
+        id: 49,
+        questions: "Я очень голодный",
+        answer: "I'm starving",
+        period: 3
+    },{
+        id: 50,
+        questions: "Давай что небуть перекусим",
+        answer: "Let's grab a bite",
+        period: 3
+    },{
+        id: 51,
+        questions: "Я очень устал",
+        answer: "I'm beat",
+        period: 3
+    },{
+        id: 52,
+        questions: "Все готова",
+        answer: "All set",
+        period: 3
+    },{
+        id: 53,
+        questions: "Нечего особонного, Говорим когда ктото перед вами извеняется",
+        answer: "no big deal",
+        period: 3
+    },{
+        id: 54,
+        questions: "Я все понимаю",
+        answer: "That makes sense",
+        period: 3
+    },{
+        id: 55,
+        questions: "Я буду держать тебя в курсе",
+        answer: "I'll keep you posted",
+        period: 3
     }
 ]
