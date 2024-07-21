@@ -12,7 +12,7 @@ const English = () => {
         actions: {writeAnswer, startQuiz, flipCard, setPeriodValue}
     } = useQuiz(englishData)
 
-    const periods = [{name: "Фразы", slug: 1}, {name: "Слова на повсевдневность", slug: 2},{name: "Фразы на на русском", slug: 3},]
+    const periods = [{name: "Фразы", slug: 1}]
 
     return <div>
         <Link to={"/"}>Главная</Link>

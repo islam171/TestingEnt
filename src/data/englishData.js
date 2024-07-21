@@ -1,248 +1,203 @@
 export const englishData = [
     {
-        id: 1,
-        questions: "Do you mind if...",
-        answer: "Вы не против если...",
-        period: 1
-    },{
-        id: 2,
-        questions: "Would you like to ...",
-        answer: "Не хочешь ли ты (глагол)",
-        period: 1
-    },{
-        id: 3,
-        questions: "Would you rather .... or .... ?",
-        answer: "Либо (глагольная фраза) или (глагольная фраза)",
-        period: 1
-    },{
-        id: 4,
-        questions: "Would do you think about ...?",
-        answer: "Что ты думаешь об (существительное или gerund)",
-        period: 1
-    },{
-        id: 5,
-        questions: "How would you feel if ...",
-        answer: "Как бы ты отреагировал если (past simple)",
-        period: 1
-    },{
-        id: 6,
-        questions: "How you ever tried ...",
-        answer: "ТЫ когда нибудь пробовал (существительное или gerund)",
-        period: 1
-    },{
-        id: 7,
-        questions: "Would you consider ...",
-        answer: "Вы рассмотрели возможность того (gerund)",
-        period: 1
-    },{
-        id: 8,
-        questions: "What you take on ...",
-        answer: "Какое у тебя мнение по поводу (существительное)",
-        period: 1
-    },{
-        id: 9,
-        questions: "Are you familiar with ...",
-        answer: "Ты знаешь о (существительное)",
-        period: 1
-    },{
-        id: 10,
-        questions: "Can you explain how to ...",
-        answer: "Ты можешь мне обяснить (глагол)",
-        period: 1
-    },{
-        id: 11,
-        questions: "What's the best way to approach ....",
-        answer: "Какой лучший подход к (существительное или gerund)",
-        period: 1
-    },{
-        id: 12,
-        questions: "What's your perspective on ....",
-        answer: "Как ты думаешь об (существительное или gerund)",
-        period: 1
-    },{
-        id: 13,
-        questions: "Could you clarify ... ",
-        answer: "Ты мог бы поеснить (существительное)",
-        period: 1
-    },{
-        id: 14,
-        questions: "Я на кухне",
-        answer: "I'm in my kitchen",
-        period: 2
-    },{
-        id: 15,
-        questions: "Давайте сделаем чай",
-        answer: "Let's make some tea",
-        period: 2
-    },{
-        id: 15,
-        questions: "Включить чайник",
-        answer: "Turn the kettle on",
-        period: 2
-    },{
-        id: 16,
-        questions: "Не мог бы ты сделать чай?",
-        answer: "Can you make some tea?",
-        period: 2
-    },{
-        id: 17,
-        questions: "Готовить",
-        answer: "Cook",
-        period: 2
-    },{
-        id: 18,
-        questions: "Духовка",
-        answer: "Oven",
-        period: 2
-    },{
-        id: 19,
-        questions: "Запекать",
-        answer: "Bake",
-        period: 2
-    },{
-        id: 20,
-        questions: "Решетки в духовке",
-        answer: "Oven racks",
-        period: 2
-    },{
-        id: 21,
-        questions: "What's the best way to approach ....",
-        answer: "Какой лучший подход к (существительное или gerund)",
-        period: 1
-    },{
-        id: 22,
-        questions: "What's your perspective on ....",
-        answer: "Как ты думаешь об (существительное или gerund)",
-        period: 1
-    },{
-        id: 23,
-        questions: "Could you clarify ... ",
-        answer: "Ты мог бы поеснить (существительное)",
-        period: 1
-    },{
-        id: 24,
-        questions: "Я на кухне",
-        answer: "I'm in my kitchen",
-        period: 2
-    },{
-        id: 25,
-        questions: "Давайте сделаем чай",
-        answer: "Let's make some tea",
-        period: 2
-    },{
-        id: 25,
-        questions: "Включить чайник",
-        answer: "Turn the kettle on",
-        period: 2
-    },{
-        id: 26,
-        questions: "Не мог бы ты сделать чай?",
-        answer: "Can you make some tea?",
-        period: 2
-    },{
-        id: 27,
-        questions: "Готовить",
-        answer: "Cook",
-        period: 2
-    },{
-        id: 28,
-        questions: "Духовка",
-        answer: "Oven",
-        period: 2
-    },{
-        id: 29,
-        questions: "Запекать",
-        answer: "Bake",
-        period: 2
-    },{
-        id: 30,
-        questions: "Решетки в духовке",
-        answer: "Oven racks",
-        period: 2
-    },{
         id: 31,
         questions: "Привет как дела?",
         answer: "Hey, How's is going. What's up",
-        period: 3
+        period: 1
     },{
         id: 32,
         questions: "Давно не видились?",
         answer: "It's been so long",
-        period: 3
+        period: 1
     },{
         id: 33,
         questions: "Не беспокойся, Раслабся?",
         answer: "Take it easy",
-        period: 3
+        period: 1
     },{
         id: 34,
         questions: "Не беспопкоёся. Нечего страшного. Мы отвечаем когда говорят спасибо",
         answer: "No worries",
-        period: 3
+        period: 1
     },{
         id: 35,
         questions: "Звучит хорошо. Соглашение",
         answer: "Sounds good",
-        period: 3
+        period: 1
     },{
         id: 36,
         questions: "Я опаздываю",
         answer: "I am running late",
-        period: 3
+        period: 1
     },{
         id: 37,
         questions: "Увидимся позже",
         answer: "Catch you later",
-        period: 3
+        period: 1
     },{
         id: 38,
         questions: "Уже в пути",
         answer: "I'm on my way",
-        period: 3
+        period: 1
     },{
         id: 39,
         questions: "Подождите секундочку",
         answer: "Hang on a sec",
-        period: 3
+        period: 1
     },{
         id: 40,
         questions: "Скоро вернусь",
         answer: "I'll be right back",
-        period: 3
+        period: 1
     },{
         id: 49,
         questions: "Я очень голодный",
         answer: "I'm starving",
-        period: 3
+        period: 1
     },{
         id: 50,
         questions: "Давай что небуть перекусим",
         answer: "Let's grab a bite",
-        period: 3
+        period: 1
     },{
         id: 51,
         questions: "Я очень устал",
         answer: "I'm beat",
-        period: 3
+        period: 1
     },{
         id: 52,
         questions: "Все готова",
         answer: "All set",
-        period: 3
+        period: 1
     },{
         id: 53,
         questions: "Нечего особонного, Говорим когда ктото перед вами извеняется",
         answer: "no big deal",
-        period: 3
+        period: 1
     },{
         id: 54,
         questions: "Я все понимаю",
         answer: "That makes sense",
-        period: 3
+        period: 1
     },{
         id: 55,
         questions: "Я буду держать тебя в курсе",
         answer: "I'll keep you posted",
-        period: 3
+        period: 1
+    },{
+        id: 56,
+        questions: "Я в деле, я за",
+        answer: "I'm in",
+        period: 1
+    },{
+        id: 57,
+        questions: "Это очень круто",
+        answer: "That's awesome",
+        period: 1
+    },{
+        id: 57,
+        questions: "Ты че угараешь?",
+        answer: "Are you kidding me?",
+        period: 1
+    },{
+        id: 58,
+        questions: "Абсолютно!",
+        answer: "Absolutely!",
+        period: 1
+    },{
+        id: 59,
+        questions: "Ты можешь помочЬ мне?",
+        answer: "Can you give me a hand?",
+        period: 1
+    },{
+        id: 60,
+        questions: "Решать тебе, выбор за тобой",
+        answer: "It's up to you?",
+        period: 1
+    },{
+        id: 61,
+        questions: "Походу дела разберемся",
+        answer: "Let's play it by ear?",
+        period: 1
+    },{
+        id: 62,
+        questions: "Не стоит благодарности",
+        answer: "Don't mention it",
+        period: 1
+    },{
+        id: 63,
+        questions: "Моя ощибка, я виноват",
+        answer: "My bad",
+        period: 1
+    },{
+        id: 64,
+        questions: "Я полностью согласен, я не могу ольше согласится чем сейчас",
+        answer: "I couldn't agree more",
+        period: 1
+    },{
+        id: 65,
+        questions: "Что происходит?",
+        answer: "What's going on?",
+        period: 1
+    },{
+        id: 66,
+        questions: "Я прикрою тебя, я потдержу тебя",
+        answer: "I've got your back",
+        period: 1
+    },{
+        id: 66,
+        questions: "У меня вылетело из головы",
+        answer: "It's slipped my mind",
+        period: 1
+    },{
+        id: 67,
+        questions: "Лучше поздно чем никогда",
+        answer: "Batter late than never",
+        period: 1
+    },{
+        id: 68,
+        questions: "Дай ине знать",
+        answer: "Let me know",
+        period: 1
+    },{
+        id: 69,
+        questions: "Время летит быстро",
+        answer: "Time flies",
+        period: 1
+    },{
+        id: 70,
+        questions: "Это не в моем вкусе",
+        answer: "it's not my cup of tea",
+        period: 1
+    },{
+        id: 71,
+        questions: "Давай закруглатся на сегодня",
+        answer: "Let's call it a day",
+        period: 1
+    },{
+        id: 72,
+        questions: "Я на мили, У меня нету денег",
+        answer: "I'm broke",
+        period: 1
+    },{
+        id: 73,
+        questions: "Это легко",
+        answer: "it's piece of cake",
+        period: 1
+    },{
+        id: 74,
+        questions: "Удачи",
+        answer: "Break a leg",
+        period: 1
+    },{
+        id: 75,
+        questions: "Я слушаю внимательно",
+        answer: "I'm al ears",
+        period: 1
+    },{
+        id: 75,
+        questions: "В чем подвох?",
+        answer: "What's the catch?",
+        period: 1
     }
 ]
