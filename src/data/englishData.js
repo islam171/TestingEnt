@@ -106,7 +106,7 @@ export const englishData = [
         period: 1
     },{
         id: 59,
-        questions: "Ты можешь помочЬ мне?",
+        questions: "Ты можешь помочь мне?",
         answer: "Can you give me a hand?",
         period: 1
     },{
@@ -131,7 +131,7 @@ export const englishData = [
         period: 1
     },{
         id: 64,
-        questions: "Я полностью согласен, я не могу ольше согласится чем сейчас",
+        questions: "Я полностью согласен, я не могу больше согласится чем сейчас",
         answer: "I couldn't agree more",
         period: 1
     },{
@@ -192,12 +192,87 @@ export const englishData = [
     },{
         id: 75,
         questions: "Я слушаю внимательно",
-        answer: "I'm al ears",
+        answer: "I'm all ears",
         period: 1
     },{
         id: 75,
         questions: "В чем подвох?",
         answer: "What's the catch?",
+        period: 1
+    },{
+        id: 76,
+        questions: "Я не верю в это",
+        answer: "I'm not buying it",
+        period: 1
+    },{
+        id: 77,
+        questions: "Ты не мог бы посмотреть за этой сумкой",
+        answer: "Con you keep an eye on this bag",
+        period: 1
+    },{
+        id: 78,
+        questions: "Ситуация в котором обе победители",
+        answer: "it's a win-win situation",
+        period: 1
+    },{
+        id: 79,
+        questions: "Держи меня в курсе",
+        answer: "Keep me posted",
+        period: 1
+    },{
+        id: 80,
+        questions: "Ты перешел границы",
+        answer: "You're out of line",
+        period: 1
+    },{
+        id: 81,
+        questions: "Давай импровезировать",
+        answer: "Let's play it by ear",
+        period: 1
+    },{
+        id: 82,
+        questions: "Давай заканчивать",
+        answer: "Let's wrap it up",
+        period: 1
+    },{
+        id: 83,
+        questions: "Вероятность того что это получится очень маленькое",
+        answer: "It's long a shot",
+        period: 1
+    },{
+        id: 84,
+        questions: "Я не смогу, я хочу перенисти на потом",
+        answer: "Rain check",
+        period: 1
+    },{
+        id: 85,
+        questions: "Что-то внезапно поевилилась, планы изменились",
+        answer: "Something came up",
+        period: 1
+    },{
+        id: 86,
+        questions: "Ответ очивиден, даже не надо думать",
+        answer: "It's a no-brainer",
+        period: 1
+    },{
+        id: 87,
+        questions: "Ответ очивиден, даже не надо думать",
+        answer: "It's a no-brainer",
+        period: 1
+    },{
+        id: 88,
+        questions: "Делать выводы слишком рано",
+        answer: "To jump to conclusions",
+        period: 1
+    },{
+        id: 81,
+        questions: "У меня вторые мысли",
+        answer: "I'm having seconds thoughts",
+        period: 1
+    },{
+        id: 82,
+        questions: "Давайте уберем все недопонимания",
+        answer: "Let's clear the air",
         period: 1
     }
 ]
