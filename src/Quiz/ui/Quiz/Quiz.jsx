@@ -1,22 +1,15 @@
 import styles from "./Quiz.module.scss"
 import QuizWrapper from "../QuizWrapper/QuizWrapper.jsx";
 import QuizCard from "../QuizCard/QuizCard.jsx";
+import QuizNotStarted from "../QuizNotStarted/QuizNotStarted.jsx";
+import QuizFinishPage from "../QuizFinishPage/QuizFinishPage.jsx";
 
 
 const Quiz = ({currentQuestion, status, flipCard, isShowAnswer, writeAnswer, startQuiz}) => {
 
-    if (status === 'notStarted') {
-        return <div className={styles.wrapper}>
-            <button onClick={() => startQuiz()}>Начать тестирование</button>
-        </div>
-    }
+    if (status === 'notStarted') return <QuizNotStarted startQuiz={startQuiz}/>
 
-    if (status === 'finished') {
-        return <div className={styles.Quiz__over}>
-            <p>Тестирование окончено</p>
-            <button onClick={() => startQuiz()}>Начать занова</button>
-        </div>
-    }
+    if (status === 'finished') return <QuizFinishPage startQuiz={startQuiz}/>
 
 
     return (<div className={styles.Quiz}>

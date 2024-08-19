@@ -6,18 +6,18 @@ export const englishData = [
         period: 1
     },{
         id: 32,
-        questions: "Давно не видились?",
+        questions: "Давно не видились",
         answer: "It's been so long",
         period: 1
     },{
         id: 33,
-        questions: "Не беспокойся, Раслабся?",
+        questions: "Не беспокойся, Раслабся",
         answer: "Take it easy",
         period: 1
     },{
         id: 34,
         questions: "Не беспопкоёся. Нечего страшного. Мы отвечаем когда говорят спасибо",
-        answer: "No worries",
+        answer: "No worries, no big deal",
         period: 1
     },{
         id: 35,
@@ -70,11 +70,6 @@ export const englishData = [
         answer: "All set",
         period: 1
     },{
-        id: 53,
-        questions: "Нечего особонного, Говорим когда ктото перед вами извеняется",
-        answer: "no big deal",
-        period: 1
-    },{
         id: 54,
         questions: "Я все понимаю",
         answer: "That makes sense",
@@ -112,12 +107,12 @@ export const englishData = [
     },{
         id: 60,
         questions: "Решать тебе, выбор за тобой",
-        answer: "It's up to you?",
+        answer: "It's up to you",
         period: 1
     },{
         id: 61,
         questions: "Походу дела разберемся",
-        answer: "Let's play it by ear?",
+        answer: "Let's play it by ear",
         period: 1
     },{
         id: 62,
@@ -207,7 +202,7 @@ export const englishData = [
     },{
         id: 77,
         questions: "Ты не мог бы посмотреть за этой сумкой",
-        answer: "Con you keep an eye on this bag",
+        answer: "Can you keep an eye on this bag",
         period: 1
     },{
         id: 78,
@@ -274,5 +269,150 @@ export const englishData = [
         questions: "Давайте уберем все недопонимания",
         answer: "Let's clear the air",
         period: 1
+    },{
+        id: 83,
+        questions: "Держись (Слова поддержки)",
+        answer: "Hang in there",
+        period: 1
+    },{
+        id: 84,
+        questions: "Попробуй",
+        answer: "Give it a shot",
+        period: 1
+    },{
+        id: 85,
+        questions: "Я разочирован",
+        answer: "That's a bummer",
+        period: 1
+    },{
+        id: 86,
+        questions: "Не может быть, не верю",
+        answer: "No way",
+        period: 1
+    },{
+        id: 86,
+        questions: "Успокойся",
+        answer: "settle down",
+        period: 2
+    },{
+        id: 87,
+        questions: "Вернись обратно",
+        answer: "get back here",
+        period: 2
+    },{
+        id: 88,
+        questions: "Начинать",
+        answer: "Start, begin",
+        period: 2
+    },{
+        id: 89,
+        questions: "Невероятно",
+        answer: "Incredibly",
+        period: 2
+    },{
+        id: 90,
+        questions: "Мощный",
+        answer: "Powerfull",
+        period: 2
+    },{
+        id: 91,
+        questions: "Возбужденный",
+        answer: "Excited",
+        period: 2
+    },{
+        id: 92,
+        questions: "Редко",
+        answer: "Seldom, rarely, infrequently",
+        period: 2
+    },{
+        id: 93,
+        questions: "Каждый",
+        answer: "each, every",
+        period: 2
+    },{
+        id: 94,
+        questions: "Добрый",
+        answer: "Kind",
+        period: 2
+    },{
+        id: 95,
+        questions: "Сострадание",
+        answer: "compassion",
+        period: 2
+    },{
+        id: 96,
+        questions: "Через",
+        answer: "through",
+        period: 2
+    },{
+        id: 97,
+        questions: "Объектив",
+        answer: "lens",
+        period: 2
+    },{
+        id: 98,
+        questions: "Относится",
+        answer: "treat",
+        period: 2
+    },{
+        id: 99,
+        questions: "Чуствовать себя",
+        answer: "feel",
+        period: 2
+    },{
+        id: 100,
+        questions: "Разное",
+        answer: "Different",
+        period: 2
+    },{
+        id: 101,
+        questions: "Область",
+        answer: "areas",
+        period: 2
+    },{
+        id: 102,
+        questions: "Достигать",
+        answer: "achieve",
+        period: 2
+    },{
+        id: 103,
+        questions: "Более вероятно",
+        answer: "more likely",
+        period: 2
+    },{
+        id: 104,
+        questions: "такие вещи, как",
+        answer: "things like",
+        period: 2
+    },{
+        id: 105,
+        questions: "Заслуживать",
+        answer: "Deserve",
+        period: 2
+    },{
+        id: 106,
+        questions: "Простить",
+        answer: "Forgive",
+        period: 2
+    },{
+        id: 107,
+        questions: "Ошибки",
+        answer: "Mistakes",
+        period: 2
+    },{
+        id: 108,
+        questions: "В направлении",
+        answer: "Toward",
+        period: 2
+    },{
+        id: 109,
+        questions: "Чувства",
+        answer: "Feelings",
+        period: 2
+    },{
+        id: 110,
+        questions: "Боль",
+        answer: "pain",
+        period: 2
     }
 ]
