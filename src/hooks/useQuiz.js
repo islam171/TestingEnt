@@ -6,10 +6,11 @@ export const useQuiz = (questionsData) => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [status, setStatus] = useState('notStarted')
     const [isShowAnswer, setIsShowAnswer] = useState(false)
-    const [wrongAnswer, setWrongAnswer] = useState([])
+    const [wrongAnswers, setWrongAnswers] = useState([])
     const [goodAnswer, setGoodAnswer] = useState([])
     const [period, setPeriod] = useState(1)
     const [questions, setQuestions] = useState([])
+    const [isTurnQuestion, setIsTurnQuestion] = useState(true)
 
     const startQuestions = questionsData.filter(item => item.period === period)
 
@@ -21,17 +22,15 @@ export const useQuiz = (questionsData) => {
         setIsShowAnswer(prev => !prev)
     }
 
-
     let progress = ((goodAnswer.length / startQuestions.length) * 100)
     const currentQuestion = useMemo(() => questions[currentIndex], [currentIndex, questions])
-
 
     useEffect(() => {
         setQuestions(shuffle(startQuestions))
     }, []);
 
-
     useEffect(() => {
+        // if(status === 'finished') return
         const handleKeyDown = e => {
             switch (e.key) {
                 case ' ': {
@@ -59,7 +58,6 @@ export const useQuiz = (questionsData) => {
         return () => document.removeEventListener('keydown', handleKeyDown)
     }, [flipCard])
 
-
     const startQuiz = () => {
         Zeroing()
         setStatus("isProcess")
@@ -70,17 +68,16 @@ export const useQuiz = (questionsData) => {
         setCurrentIndex(0)
         setIsShowAnswer(false)
         setGoodAnswer([])
-        setWrongAnswer([])
+        setWrongAnswers([])
     }
 
     const writeAnswer = (que, selectedOption) => {
         setIsShowAnswer(false)
-        let wrongArray = wrongAnswer
+        let wrongArray = wrongAnswers
+        wrongArray = wrongArray.filter(item => item.id !== que.id)
         if (!selectedOption) {
-            wrongArray = wrongArray.filter(item => item.id !== que.id)
             wrongArray.push(que)
         } else {
-            wrongArray = wrongArray.filter(item => item.id !== que.id)
             setGoodAnswer(prev => [...prev, que])
         }
         if (questions.length - 1 > currentIndex) {
@@ -89,11 +86,11 @@ export const useQuiz = (questionsData) => {
             if (wrongArray.length > 0) {
                 setQuestions(wrongArray)
                 setCurrentIndex(0)
-            } else {
+            }else{
                 setStatus("finished")
             }
         }
-        setWrongAnswer(wrongArray)
+        setWrongAnswers(wrongArray)
     }
 
     const setPeriodValue = (value) => {
@@ -102,5 +99,6 @@ export const useQuiz = (questionsData) => {
         setStatus('notStarted')
     }
 
-    return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress}}
+
+    return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue, setIsTurnQuestion}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress, isTurnQuestion}}
 }

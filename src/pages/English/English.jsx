@@ -7,24 +7,23 @@ import {Link} from "react-router-dom";
 
 const English = () => {
 
+
+
     const {
-        variable: {isShowAnswer, currentQuestion, status, period, progress},
-        actions: {writeAnswer, startQuiz, flipCard, setPeriodValue}
+        variable,
+        actions
     } = useQuiz(englishData)
 
     const periods = [{name: "Фразы", slug: 1}, {name: "1000 слов из контекста", slug: 2}]
 
     return <div>
         <Link to={"/"}>Главная</Link>
-        <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
-        <ProgressBar progress={progress}/>
+        <button onClick={() => actions.setIsTurnQuestion(prev => !prev)}>Перевернуть</button>
+        <Selection toggleSelection={actions.setPeriodValue} value={variable.period} values={periods}/>
+        <ProgressBar progress={variable.progress}/>
         <Quiz
-            writeAnswer={writeAnswer}
-            status={status}
-            flipCard={flipCard}
-            isShowAnswer={isShowAnswer}
-            currentQuestion={currentQuestion}
-            startQuiz={startQuiz}/>
+            actions={actions}
+            variable={variable}/>
     </div>
 }
 
