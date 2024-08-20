@@ -414,5 +414,255 @@ export const englishData = [
         questions: "Боль",
         answer: "pain",
         period: 2
+    },{
+        id: 111,
+        questions: "Вознаграждать",
+        answer: "Reward",
+        period: 2
+    },{
+        id: 112,
+        questions: "Проодолжать",
+        answer: "continue",
+        period: 2
+    },{
+        id: 113,
+        questions: "Выращивать",
+        answer: "grow",
+        period: 2
+    },{
+        id: 114,
+        questions: "Скроее всего",
+        answer: "Rather",
+        period: 2
+    },{
+        id: 115,
+        questions: "Восхваление",
+        answer: "Praising",
+        period: 2
+    },{
+        id: 116,
+        questions: "Большие, ощутимый",
+        answer: "tangible",
+        period: 2
+    },{
+        id: 117,
+        questions: "Праздновать",
+        answer: "celebrate",
+        period: 2
+    },{
+        id: 118,
+        questions: "Даже",
+        answer: "even",
+        period: 2
+    },{
+        id: 119,
+        questions: "Поощирать",
+        answer: "Encourage",
+        period: 2
+    },{
+        id: 120,
+        questions: "Бодрить",
+        answer: "Invigorate",
+        period: 2
+    },{
+        id: 121,
+        questions: "Похлопования по спине",
+        answer: "put on the back",
+        period: 2
+    },{
+        id: 122,
+        questions: "Зачеркивать",
+        answer: "you cross",
+        period: 2
+    },{
+        id: 123,
+        questions: "Улучшения",
+        answer: "Improve",
+        period: 2
+    },{
+        id: 124,
+        questions: "Заботится",
+        answer: "Care",
+        period: 2
+    },{
+        id: 125,
+        questions: "Усилие",
+        answer: "Effort",
+        period: 2
+    },{
+        id: 126,
+        questions: "Вешь",
+        answer: "Thing",
+        period: 2
+    },{
+        id: 127,
+        questions: "Имеет значение",
+        answer: "Matter",
+        period: 2
+    },{
+        id: 128,
+        questions: "Сильный стороны",
+        answer: "Strengths",
+        period: 2
+    },{
+        id: 129,
+        questions: "Уверенность",
+        answer: "Confidence",
+        period: 2
+    },{
+        id: 130,
+        questions: "Действительно, во истину",
+        answer: "Truly",
+        period: 2
+    },{
+        id: 131,
+        questions: "Определенные",
+        answer: "Certain",
+        period: 2
+    },{
+        id: 132,
+        questions: "Такие как",
+        answer: "Such as",
+        period: 2
+    },{
+        id: 133,
+        questions: "Средства (деньги)",
+        answer: "Funds",
+        period: 2
+    },{
+        id: 134,
+        questions: "Необходимый",
+        answer: "Necessary",
+        period: 2
+    },{
+        id: 135,
+        questions: "Испуганный",
+        answer: "Afraid",
+        period: 2
+    },{
+        id: 136,
+        questions: "Шиковать",
+        answer: "Splurge",
+        period: 2
+    },{
+        id: 137,
+        questions: "Дорогой",
+        answer: "Expensive",
+        period: 2
+    },{
+        id: 138,
+        questions: "Лучше",
+        answer: "Nicer, better",
+        period: 2
+    },{
+        id: 139,
+        questions: "Запасы",
+        answer: "Supplies, stocks",
+        period: 2
+    },{
+        id: 140,
+        questions: "Дрогоценный",
+        answer: "Precious",
+        period: 2
+    },{
+        id: 141,
+        questions: "Поддерживать",
+        answer: "Maintain, Support",
+        period: 2
+    },{
+        id: 142,
+        questions: "Уделять время",
+        answer: "Make time",
+        period: 2
+    },{
+        id: 143,
+        questions: "Делать максимум",
+        answer: "Do the best",
+        period: 2
+    },{
+        id: 144,
+        questions: "Честный",
+        answer: "Honest",
+        period: 2
+    },{
+        id: 145,
+        questions: "Мысли",
+        answer: "Thoughts",
+        period: 2
+    },{
+        id: 146,
+        questions: "Становится",
+        answer: "Become",
+        period: 2
+    },{
+        id: 147,
+        questions: "Собственный",
+        answer: "Own",
+        period: 2
+    },{
+        id: 148,
+        questions: "Условия",
+        answer: "Terms",
+        period: 2
+    },{
+        id: 149,
+        questions: "Общий",
+        answer: "Overall",
+        period: 2
+    },{
+        id: 150,
+        questions: "Множество",
+        answer: "Plenty",
+        period: 2
+    },{
+        id: 151,
+        questions: "Границы",
+        answer: "Boundaries",
+        period: 2
+    },{
+        id: 152,
+        questions: "Зночемый",
+        answer: "Significant",
+        period: 2
+    },{
+        id: 153,
+        questions: "Гарантировать",
+        answer: "Ensure",
+        period: 2
+    },{
+        id: 154,
+        questions: "Придел",
+        answer: "Limit",
+        period: 2
+    },{
+        id: 155,
+        questions: "Мнение",
+        answer: "Option",
+        period: 2
+    },{
+        id: 156,
+        questions: "Оставатся",
+        answer: "Remain",
+        period: 2
+    },{
+        id: 157,
+        questions: "",
+        answer: "",
+        period: 2
+    },{
+        id: 158,
+        questions: "",
+        answer: "",
+        period: 2
+    },{
+        id: 159,
+        questions: "",
+        answer: "",
+        period: 2
+    },{
+        id: 160,
+        questions: "",
+        answer: "",
+        period: 2
     }
 ]
