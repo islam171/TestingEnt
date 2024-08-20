@@ -3,6 +3,7 @@ import {useEffect, useMemo, useState} from "react";
 
 export const useQuiz = (questionsData) => {
 
+
     const [currentIndex, setCurrentIndex] = useState(0)
     const [status, setStatus] = useState('notStarted')
     const [isShowAnswer, setIsShowAnswer] = useState(false)
@@ -27,10 +28,11 @@ export const useQuiz = (questionsData) => {
 
     useEffect(() => {
         setQuestions(shuffle(startQuestions))
+        console.log('useEffect')
     }, []);
 
     useEffect(() => {
-        // if(status === 'finished') return
+        if(status === 'finished') return
         const handleKeyDown = e => {
             switch (e.key) {
                 case ' ': {
@@ -98,7 +100,6 @@ export const useQuiz = (questionsData) => {
         Zeroing()
         setStatus('notStarted')
     }
-
 
     return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue, setIsTurnQuestion}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress, isTurnQuestion}}
 }

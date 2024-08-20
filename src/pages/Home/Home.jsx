@@ -10,30 +10,23 @@ const Home = () => {
 
 
     const {
-        variable: {isShowAnswer, currentQuestion, status, period, progress},
-        actions: {writeAnswer, startQuiz, flipCard, setPeriodValue}
+        variable, actions
     } = useQuiz(questionsData)
 
 
-    const periods = [
-        {name: "Древний мир", slug: 1},
-        {name: "Средневековье", slug: 2},
-        {name: "Новое время", slug: 3},
-        {name: "Новейшая время", slug: 4}
-    ]
+    const periods = [{name: "Древний мир", slug: 1}, {name: "Средневековье", slug: 2}, {
+        name: "Новое время",
+        slug: 3
+    }, {name: "Новейшая время", slug: 4}]
 
     return <div className={styles.Home}>
 
         <Link to={"/english"}>Англиский</Link>
-        <Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
-        <ProgressBar progress={progress}/>
+        <Selection toggleSelection={actions.setPeriodValue} value={variable.period} values={periods}/>
+        <ProgressBar progress={variable.progress}/>
         <Quiz
-            writeAnswer={writeAnswer}
-            status={status}
-            flipCard={flipCard}
-            isShowAnswer={isShowAnswer}
-            currentQuestion={currentQuestion}
-            startQuiz={startQuiz}/>
+            actions={actions}
+            variable={variable}/>
     </div>
 }
 
