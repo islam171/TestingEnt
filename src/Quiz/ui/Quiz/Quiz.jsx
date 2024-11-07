@@ -14,7 +14,6 @@ const Quiz = ({
 
     if (status === 'finished') return <QuizFinishPage startQuiz={startQuiz}/>
 
-
     return (<div className={styles.Quiz}>
         {status === 'isProcess' && <>
             {currentQuestion ? (<QuizWrapper>
@@ -24,12 +23,11 @@ const Quiz = ({
                     isShowAnswer={isShowAnswer}
                     isTurnQuestion={isTurnQuestion}/>
                 <div className={styles.Quiz__control}>
-                    <button onClick={() => writeAnswer(currentQuestion, false)}>Неверно</button>
-                    <button onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
+                    <button disabled={isShowAnswer} onClick={() => writeAnswer(currentQuestion, false)}>Неверно</button>
+                    <button disabled={isShowAnswer} onClick={() => writeAnswer(currentQuestion, true)}>Верно</button>
                 </div>
             </QuizWrapper>) : <>Loading...</>}
         </>}
-
     </div>)
 }
 
