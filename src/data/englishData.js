@@ -621,7 +621,7 @@ export const englishData = [
         period: 2
     },{
         id: 152,
-        questions: "Зночемый",
+        questions: "Значемый",
         answer: "Significant",
         period: 2
     },{

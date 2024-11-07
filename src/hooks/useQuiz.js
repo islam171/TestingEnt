@@ -12,15 +12,15 @@ export const useQuiz = (questionsData) => {
     const [period, setPeriod] = useState(1)
     const [questions, setQuestions] = useState([])
     const [isTurnQuestion, setIsTurnQuestion] = useState(true)
-
+    
     const startQuestions = questionsData.filter(item => item.period === period)
-
-    function shuffle(array) {
-        return array.sort(() => Math.random() - 0.5);
-    }
-
+    
     const flipCard = () => {
         setIsShowAnswer(prev => !prev)
+    }
+    
+    function shuffle(array) {
+        return array.sort(() => Math.random() - 0.5);
     }
 
     let progress = ((goodAnswer.length / startQuestions.length) * 100)

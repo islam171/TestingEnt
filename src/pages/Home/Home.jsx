@@ -3,7 +3,7 @@ import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
 import Selection from "../../feuture/Selection/Selection.jsx";
 import {useQuiz} from "../../hooks/useQuiz.js";
 import ProgressBar from "../../feuture/ProgressBar/ProgressBar.jsx";
-import {questionsData} from "../../data/questionDataNew.js";
+import {questionsData} from "../../data/historyDataNew.js";
 import {Link} from "react-router-dom";
 
 const Home = () => {
@@ -15,11 +15,11 @@ const Home = () => {
 
 
     const periods = [{name: "Древний мир", slug: 1}, {name: "Средневековье", slug: 2}, {
-        name: "Новое время",
-        slug: 3
+        name: "Новое время", slug: 3
     }, {name: "Новейшая время", slug: 4}]
 
     return <div className={styles.Home}>
+
 
         <Link to={"/english"}>Англиский</Link>
         <Selection toggleSelection={actions.setPeriodValue} value={variable.period} values={periods}/>
