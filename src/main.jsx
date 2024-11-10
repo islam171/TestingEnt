@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import Home from "./pages/Home/Home.jsx";
-import {createBrowserRouter, createRoutesFromElements, Link, Route, RouterProvider, Routes} from "react-router-dom";
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";
 import English from "./pages/English/English.jsx";
 
 const router = createBrowserRouter(createRoutesFromElements(
