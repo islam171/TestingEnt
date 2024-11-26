@@ -12,6 +12,7 @@ export const useQuiz = (questionsData) => {
     const [period, setPeriod] = useState(1)
     const [questions, setQuestions] = useState([])
     const [isTurnQuestion, setIsTurnQuestion] = useState(true)
+    const [countWrongAnswer, setCountWrongAnswer] = useState(0);
     
     const startQuestions = questionsData.filter(item => item.period === period)
     
@@ -28,7 +29,6 @@ export const useQuiz = (questionsData) => {
 
     useEffect(() => {
         setQuestions(shuffle(startQuestions))
-        console.log('useEffect')
     }, []);
 
     useEffect(() => {
@@ -56,7 +56,9 @@ export const useQuiz = (questionsData) => {
                     return
             }
         }
-        document.addEventListener('keydown', handleKeyDown)
+        if(status === 'isProcess') {
+            document.addEventListener('keydown', handleKeyDown)
+        }
         return () => document.removeEventListener('keydown', handleKeyDown)
     }, [flipCard])
 
@@ -71,14 +73,17 @@ export const useQuiz = (questionsData) => {
         setIsShowAnswer(false)
         setGoodAnswer([])
         setWrongAnswers([])
+        setCountWrongAnswer(0)
     }
 
     const writeAnswer = (que, selectedOption) => {
+        if(isShowAnswer) return
         setIsShowAnswer(false)
         let wrongArray = wrongAnswers
         wrongArray = wrongArray.filter(item => item.id !== que.id)
         if (!selectedOption) {
             wrongArray.push(que)
+            setCountWrongAnswer(prevState => prevState+1)
         } else {
             setGoodAnswer(prev => [...prev, que])
         }
@@ -101,5 +106,5 @@ export const useQuiz = (questionsData) => {
         setStatus('notStarted')
     }
 
-    return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue, setIsTurnQuestion}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress, isTurnQuestion}}
+    return {actions: {writeAnswer, startQuiz, currentQuestion, flipCard, setPeriodValue, setIsTurnQuestion}, variable: {currentIndex, currentQuestion, status, isShowAnswer, period, progress, isTurnQuestion, countWrongAnswer}}
 }

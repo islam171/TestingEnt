@@ -1,10 +1,7 @@
 import styles from "./Home.module.scss"
-import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
-import Selection from "../../feuture/Selection/Selection.jsx";
 import {useQuiz} from "../../hooks/useQuiz.js";
-import ProgressBar from "../../feuture/ProgressBar/ProgressBar.jsx";
 import {questionsData} from "../../data/questionDataNew.js";
-import {Link} from "react-router-dom";
+import Quiz from '../../Quiz/ui/Quiz/Quiz.jsx'
 
 const Home = () => {
 	
@@ -20,13 +17,10 @@ const Home = () => {
 	
 	return <div className={styles.Home}>
 		
-		
-		<Link to={"/english"}>Англиский</Link>
-		<Selection toggleSelection={actions.setPeriodValue} value={variable.period} values={periods}/>
-		<ProgressBar progress={variable.progress}/>
 		<Quiz
 			actions={actions}
-			variable={variable}/>
+			variable={variable}
+		periods={periods}/>
 	</div>
 }
 

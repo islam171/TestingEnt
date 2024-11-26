@@ -1,6 +1,10 @@
 .Quiz {
   width: 100%;
 
+  >button{
+    margin: 20px 0;
+  }
+
   &__control{
     display: flex;
     justify-content: space-around;
