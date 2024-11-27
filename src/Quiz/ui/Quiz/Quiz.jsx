@@ -5,6 +5,7 @@ import QuizNotStarted from "../QuizNotStarted/QuizNotStarted.jsx";
 import QuizFinishPage from "../QuizFinishPage/QuizFinishPage.jsx";
 import Selection from '../../../feuture/Selection/Selection.jsx'
 import ProgressBar from '../../../feuture/ProgressBar/ProgressBar.jsx'
+import Button from '../../../feuture/Button/Button.jsx'
 
 
 const Quiz = ({
@@ -13,7 +14,7 @@ const Quiz = ({
 								periods
               }) => {
 	return (<div className={styles.Quiz}>
-		<button onClick={() => setIsTurnQuestion(prev => !prev)}>Перевернуть</button>
+		<Button onClick={() => setIsTurnQuestion(prev => !prev)} active={isTurnQuestion}>Перевернуть</Button>
 		<Selection toggleSelection={setPeriodValue} value={period} values={periods}/>
 		<ProgressBar progress={progress}/>
 		{status === 'notStarted' && <QuizNotStarted startQuiz={startQuiz}/>}

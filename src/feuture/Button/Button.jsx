@@ -1,7 +1,8 @@
 import styles from "./Button.module.scss"
+import cn from 'classnames'
 
-const Button = ({children}) => {
-	return <button className={styles.button}>
+const Button = ({children, active, onClick}) => {
+	return <button onClick={onClick} className={cn(styles.button, active && styles.active)}>
 		{children}
 	</button>
 }

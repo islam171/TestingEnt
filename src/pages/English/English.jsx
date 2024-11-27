@@ -11,11 +11,7 @@ const English = () => {
         actions
     } = useQuiz(englishData)
 
-    
-
     return <div>
-        
-        
         <Quiz
             actions={actions}
             variable={variable}

@@ -5,4 +5,10 @@
   transition: background-color 0.5s ease-in-out;
   background-color: var(--gray__800);
   white-space: nowrap;
+  border: 3px solid black;
+}
+
+.active{
+  border-color: var(--primary-color);
+  color: var(--primary-color)
 }
