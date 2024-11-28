@@ -22,6 +22,7 @@
 
 *{
   box-sizing: border-box;
+  outline: none;
 }
 a {
   font-weight: 500;
@@ -90,3 +91,4 @@ button:focus-visible {
     max-width: 100%;
   }
 }
+

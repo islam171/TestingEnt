@@ -2,11 +2,11 @@ export const englishData = [
     {
         id: 1,
         questions: "Bind",
-        answer: "Достаточно",
+        answer: "Связывать",
         period: 1
     },{
         id: 2,
-        questions: "Approximating",
+        questions: "Approximate",
         answer: "Приблизительный",
         period: 1
     },{
@@ -16,7 +16,7 @@ export const englishData = [
         period: 1
     },{
         id: 4,
-        questions: "Rearranging",
+        questions: "Rearrangement",
         answer: "Перестройка",
         period: 1
     },{
@@ -41,8 +41,8 @@ export const englishData = [
         period: 1
     },{
         id: 8,
-        questions: "Simpler",
-        answer: "Проще",
+        questions: "Simple",
+        answer: "Простой",
         period: 1
     },{
         id: 9,
@@ -51,7 +51,7 @@ export const englishData = [
         period: 1
     },{
         id: 10,
-        questions: "According",
+        questions: "According to",
         answer: "Согласно",
         period: 1
     },{

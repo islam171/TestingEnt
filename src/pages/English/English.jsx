@@ -3,10 +3,7 @@ import Quiz from "../../Quiz/ui/Quiz/Quiz.jsx";
 import {englishData, periods} from "../../data/englishData.js";
 
 const English = () => {
-
-
-
-    const {
+        const {
         variable,
         actions
     } = useQuiz(englishData)
