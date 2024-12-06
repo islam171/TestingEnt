@@ -1,4 +1,4 @@
-export const englishData = [
+export const questionsEnglish = [
     {
         id: 1,
         questions: "Bind",
@@ -82,4 +82,4 @@ export const englishData = [
     }
 ]
 
-export const periods = [{name: "Words", slug: 1}]
+export const periodsEnglish = [{name: "Words", slug: 1}]

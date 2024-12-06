@@ -1,4 +1,4 @@
-export const questionsData = [
+export const questionsHistory = [
     {
         id: 1,
         "questions": "В 1956г на каком съезде осудили личность Сталина?",
@@ -3343,3 +3343,6 @@ export const questionsData = [
         period: 4
     }
 ]
+export const periodsHistory = [{name: "Древний мир", slug: 1}, {name: "Средневековье", slug: 2}, {
+    name: "Новое время", slug: 3
+}, {name: "Новейшая время", slug: 4}]

@@ -1,14 +1,21 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Home from "./pages/Home/Home.jsx";
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from "react-router-dom";
-import English from "./pages/English/English.jsx";
 import Layout from './Layout/Layout.jsx'
+import QuizPage from './pages/QuizPage/QuizPage.jsx'
+import {periodsPsychology, questionsPsychology} from './data/Psychology.js'
+import {periodsPhiziologia, questionsPhiziologia} from './data/Fiziologia.js'
+import {periodsCultorologia, questionsCultorologia} from './data/Cultorologia.js'
+import {periodsEnglish, questionsEnglish} from './data/englishData.js'
+import {periodsHistory, questionsHistory} from './data/questionDataNew.js'
 
 const router = createBrowserRouter(createRoutesFromElements(
 	<Route path={"/"} element={<Layout/>}>
-		<Route path={'/'} element={<Home/>}/>
-		<Route path={'/english'} element={<English/>}/>
+		<Route path={'/'} element={<QuizPage periods={periodsHistory} questionsData={questionsHistory}/>}/>
+		<Route path={'/english'} element={<QuizPage periods={periodsEnglish} questionsData={questionsEnglish}/>}/>
+		<Route path={'/psychology'} element={<QuizPage periods={periodsPsychology} questionsData={questionsPsychology}/>}/>
+		<Route path={'/clutorologia'} element={<QuizPage periods={periodsCultorologia} questionsData={questionsCultorologia}/>}/>
+		<Route path={'/physiology'} element={<QuizPage periods={periodsPhiziologia} questionsData={questionsPhiziologia}/>}/>
 	</Route>
 ))
 
