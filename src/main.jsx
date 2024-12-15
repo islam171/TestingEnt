@@ -22,5 +22,8 @@ const router = createBrowserRouter(createRoutesFromElements(
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<div className={"wrapper"}>
 			<RouterProvider router={router}/>
+			<div className={"auto"}></div>
+			<div className={"ErrorBounder"}>Если на сайте будут найдены опечатки или системные сбои, то пересылайте фото и объяснение на эту почту: Shakaev.2020@mail.ru
+			</div>
 	</div>
 )

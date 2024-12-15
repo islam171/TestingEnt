@@ -86,9 +86,18 @@ button:focus-visible {
   padding: 20px;
   margin: 0 auto;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   
   @media screen and (max-width: 1280px) {
     max-width: 100%;
   }
+}
+.auto{
+  flex: 1 1 auto;
+}
+
+.ErrorBounder{
+  color: red;
 }
 
