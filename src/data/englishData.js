@@ -24,6 +24,31 @@ export const questionsEnglish = [
         questions: "Seashare",
         answer: "Берег моря",
         period: 1
+    },{
+        id: 5,
+        questions: "Adult",
+        answer: "Ересек",
+        period: 1
+    },{
+        id: 5,
+        questions: "Herring",
+        answer: "Майшабақ",
+        period: 1
+    },{
+        id: 5,
+        questions: "Gull",
+        answer: "Шағала",
+        period: 1
+    },{
+        id: 5,
+        questions: "Cardboard",
+        answer: "Картон",
+        period: 1
+    },{
+        id: 5,
+        questions: "Beak",
+        answer: "тұмсық",
+        period: 1
     },
 ]
 
