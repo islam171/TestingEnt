@@ -104,6 +104,31 @@ export const questionsEnglish = [
     questions: 'Junk',
     answer: 'Зиян',
     period: 1
+  }, {
+    id: 21,
+    questions: 'Realm',
+    answer: 'Әлем',
+    period: 1
+  }, {
+    id: 22,
+    questions: 'Mundane',
+    answer: 'Қарапайым',
+    period: 1
+  }, {
+    id: 23,
+    questions: 'Vacation',
+    answer: 'Демалыс',
+    period: 1
+  }, {
+    id: 24,
+    questions: 'Upcome',
+    answer: 'Нәтиже',
+    period: 1
+  }, {
+    id: 25,
+    questions: 'Anticipation',
+    answer: 'Кұту',
+    period: 1
   }
 ]
 
