@@ -129,6 +129,31 @@ export const questionsEnglish = [
     questions: 'Anticipation',
     answer: 'Кұту',
     period: 1
+  }, {
+    id: 26,
+    questions: 'Rebeal',
+    answer: 'Ашу',
+    period: 1
+  }, {
+    id: 27,
+    questions: 'Lineup',
+    answer: 'Құрам',
+    period: 1
+  }, {
+    id: 28,
+    questions: 'Encourage',
+    answer: 'Жігерлендіру',
+    period: 1
+  }, {
+    id: 29,
+    questions: 'Gratitude',
+    answer: 'Алғыс',
+    period: 1
+  }, {
+    id: 30,
+    questions: 'Courte',
+    answer: 'Қамқор болу',
+    period: 1
   }
 ]
 
