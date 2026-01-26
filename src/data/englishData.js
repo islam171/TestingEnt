@@ -131,7 +131,7 @@ export const questionsEnglish = [
     period: 1
   }, {
     id: 26,
-    questions: 'Rebeal',
+    questions: 'Reveal',
     answer: 'Ашу',
     period: 1
   }, {
