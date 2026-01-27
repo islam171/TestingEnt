@@ -154,6 +154,31 @@ export const questionsEnglish = [
     questions: 'Courte',
     answer: 'Қамқор болу',
     period: 1
+  }, {
+    id: 31,
+    questions: 'Herd',
+    answer: 'Стада',
+    period: 1
+  }, {
+    id: 32,
+    questions: 'Peer',
+    answer: 'Құрдас',
+    period: 1
+  }, {
+    id: 33,
+    questions: 'Tribe',
+    answer: 'Тайпа',
+    period: 1
+  }, {
+    id: 34,
+    questions: 'Lane',
+    answer: 'Жалақ',
+    period: 1
+  }, {
+    id: 35,
+    questions: 'Burden',
+    answer: 'Бремя',
+    period: 1
   }
 ]
 
