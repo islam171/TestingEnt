@@ -2,7 +2,7 @@ export const questionsEnglish = [
   {
     id: 1,
     questions: 'Bulk up',
-    answer: 'Качать мыщцы',
+    answer: 'Бұлшық ет күшейту',
     period: 1
   }, {
     id: 2,
@@ -22,7 +22,7 @@ export const questionsEnglish = [
   }, {
     id: 5,
     questions: 'Seashare',
-    answer: 'Берег моря',
+    answer: 'Теніз жағалауы',
     period: 1
   }, {
     id: 6,
@@ -47,11 +47,11 @@ export const questionsEnglish = [
   }, {
     id: 10,
     questions: 'Beak',
-    answer: 'тұмсық',
+    answer: 'Тұмсық',
     period: 1
   }, {
     id: 11,
-    questions: 'discover',
+    questions: 'Discover',
     answer: 'Табу',
     period: 1
   }, {
@@ -76,7 +76,7 @@ export const questionsEnglish = [
     period: 1
   }, {
     id: 16,
-    questions: 'Prcise',
+    questions: 'Accurate',
     answer: 'Точный',
     period: 1
   }, {
@@ -107,7 +107,7 @@ export const questionsEnglish = [
   }, {
     id: 21,
     questions: 'Realm',
-    answer: 'Әлем',
+    answer: 'Аудан',
     period: 1
   }, {
     id: 22,
@@ -121,13 +121,13 @@ export const questionsEnglish = [
     period: 1
   }, {
     id: 24,
-    questions: 'Upcome',
+    questions: 'Up come',
     answer: 'Нәтиже',
     period: 1
   }, {
     id: 25,
     questions: 'Anticipation',
-    answer: 'Кұту',
+    answer: 'Күту',
     period: 1
   }, {
     id: 26,
@@ -148,11 +148,6 @@ export const questionsEnglish = [
     id: 29,
     questions: 'Gratitude',
     answer: 'Алғыс',
-    period: 1
-  }, {
-    id: 30,
-    questions: 'Courte',
-    answer: 'Қамқор болу',
     period: 1
   }, {
     id: 31,
@@ -178,6 +173,31 @@ export const questionsEnglish = [
     id: 35,
     questions: 'Burden',
     answer: 'Бремя',
+    period: 1
+  }, {
+    id: 36,
+    questions: 'Armchair',
+    answer: 'Кресло',
+    period: 1
+  }, {
+    id: 37,
+    questions: 'Fascinating',
+    answer: 'Аса қызықты',
+    period: 1
+  }, {
+    id: 38,
+    questions: 'Swore up',
+    answer: 'Ант беру',
+    period: 1
+  }, {
+    id: 39,
+    questions: 'Swore up',
+    answer: 'Ант беру',
+    period: 1
+  }, {
+    id: 40,
+    questions: 'Victim',
+    answer: 'Құрбан',
     period: 1
   }
 ]
