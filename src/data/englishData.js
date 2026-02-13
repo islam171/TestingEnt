@@ -199,6 +199,7 @@ export const questionsEnglish = [
     questions: 'Victim',
     answer: 'Құрбан',
     period: 1
+
   }
 ]
 
