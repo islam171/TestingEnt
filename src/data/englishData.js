@@ -14,14 +14,9 @@ export const questionsEnglish = [
     questions: 'Aware',
     answer: 'Осведомленный',
     period: 1
-  }, {
-    id: 4,
-    questions: 'Irresstible',
-    answer: 'Неотрозимый',
-    period: 1
-  }, {
+  },{
     id: 5,
-    questions: 'Seashare',
+    questions: 'Sea share',
     answer: 'Теніз жағалауы',
     period: 1
   }, {
@@ -71,7 +66,7 @@ export const questionsEnglish = [
     period: 1
   }, {
     id: 15,
-    questions: 'Scarce',
+    questions: 'Rarely',
     answer: 'Сирек',
     period: 1
   }, {
@@ -152,7 +147,7 @@ export const questionsEnglish = [
   }, {
     id: 31,
     questions: 'Herd',
-    answer: 'Стада',
+    answer: 'Табын',
     period: 1
   }, {
     id: 32,
@@ -167,7 +162,7 @@ export const questionsEnglish = [
   }, {
     id: 34,
     questions: 'Lane',
-    answer: 'Жалақ',
+    answer: 'Жол',
     period: 1
   }, {
     id: 35,
@@ -191,15 +186,53 @@ export const questionsEnglish = [
     period: 1
   }, {
     id: 39,
-    questions: 'Swore up',
-    answer: 'Ант беру',
-    period: 1
-  }, {
-    id: 40,
     questions: 'Victim',
     answer: 'Құрбан',
     period: 1
-
+  }, {
+    id: 40,
+    questions: "Slim",
+    answer: "Жіншке"
+  }, {
+    id: 41,
+    questions: "Slim down",
+    answer: "Арықтау"
+  },{
+    id: 42,
+    questions: "Pursuit",
+    answer: "Қуалау"
+  },{
+    id: 43,
+    questions: "Tremendous",
+    answer: "Керемет"
+  },{
+    id: 44,
+    questions: "Approval",
+    answer: "Мақұлдау"
+  },{
+    id: 45,
+    questions: "Baker",
+    answer: "Наубайшы"
+  }, {
+    id: 46,
+    questions: "Solely",
+    answer: "Тек қана"
+  },{
+    id: 47,
+    questions: "Pluck",
+    answer: "Жұлу"
+  },{
+    id: 48,
+    questions: "Correlated",
+    answer: "Өзара бауланыс"
+  },{
+    id: 49,
+    questions: "Spatial",
+    answer: "Кеністік"
+  },{
+    id: 50,
+    questions: "Abandoned",
+    answer: "Тасталу"
   }
 ]
 
