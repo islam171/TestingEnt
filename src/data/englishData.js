@@ -233,6 +233,26 @@ export const questionsEnglish = [
     id: 50,
     questions: "Abandoned",
     answer: "Тасталу"
+  },{
+    id: 51,
+    questions: "Vanish",
+    answer: "Жоғалу"
+  },{
+    id: 52,
+    questions: "Spread",
+    answer: "Таралу"
+  },{
+    id: 53,
+    questions: "Obstacle",
+    answer: "Кедергі"
+  },{
+    id: 54,
+    questions: "Friction",
+    answer: "Үйкеліс"
+  },{
+    id: 55,
+    questions: "Convenient",
+    answer: "Ыңғайлы"
   }
 ]
 
