@@ -253,6 +253,26 @@ export const questionsEnglish = [
     id: 55,
     questions: "Convenient",
     answer: "Ыңғайлы"
+  },{
+    id: 56,
+    questions: "Conserve",
+    answer: "Сақтау"
+  },{
+    id: 57,
+    questions: "Certain",
+    answer: "Сенінді, белгілі"
+  },{
+    id: 58,
+    questions: "Relieve",
+    answer: "Женнлдету"
+  },{
+    id: 59,
+    questions: "Anxiety",
+    answer: "Мазасыздық"
+  },{
+    id: 60,
+    questions: "Latches",
+    answer: "Есікті кұршектеу"
   }
 ]
 
