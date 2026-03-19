@@ -273,7 +273,219 @@ export const questionsEnglish = [
     id: 60,
     questions: "Latches",
     answer: "Есікті кұршектеу"
-  }
+  },{
+    id: 61,
+    questions: "Accomplish",
+    answer: "Орындау"
+  },{
+    id: 62,
+    questions: "Boundary",
+    answer: "Шекара"
+  },{
+    id: 63,
+    questions: "Reliable",
+    answer: "Сенімді"
+  },{
+    id: 64,
+    questions: "Corrupt",
+    answer: "Бүлінген"
+  },{
+    id: 65,
+    questions: "Capability",
+    answer: "Мүмкіндік"
+  },{
+    id: 66,
+    questions: "Processed",
+    answer: "Өнделген"
+  },{
+    id: 67,
+    questions: "Examines",
+    answer: "Тексеру"
+  },{
+    id: 68,
+    questions: "Flow",
+    answer: "Ағын"
+  },{
+    id: 61,
+    questions: "Solely",
+    answer: "Тек"
+  },{
+    id: 62,
+    questions: "Telly",
+    answer: "Есептеу"
+  },{
+    id: 63,
+    questions: "Bend",
+    answer: "Иілу"
+  },{
+    id: 64,
+    questions: "Crank up",
+    answer: "Күшейту"
+  },{
+    id: 65,
+    questions: "Tension",
+    answer: "Шиеленіс"
+  },{
+    id: 66,
+    questions: "Twistin",
+    answer: "Бүрфлу"
+  },{
+    id: 67,
+    questions: "Revenue",
+    answer: "Доход"
+  },{
+    id: 68,
+    questions: "Tidying up",
+    answer: "Жинау"
+  },{
+    id: 69,
+    questions: "Grocery",
+    answer: "Азық-түлік"
+  },{
+    id: 70,
+    questions: "Purchase",
+    answer: "Сатып алу"
+  },{
+    id: 71,
+    questions: "Dial",
+    answer: "Теру"
+  },{
+    id: 73,
+    questions: "Pick",
+    answer: "Тандау"
+  },{
+    id: 73,
+    questions: "Pick up",
+    answer: "Алу кету"
+  },{
+    id: 74,
+    questions: "Occasion",
+    answer: "Оқиға"
+  },{
+    id: 75,
+    questions: "Touring",
+    answer: "Гастрольдік сапарлар"
+  },{
+    id: 76,
+    questions: "Cab",
+    answer: "Такси"
+  },{
+    id: 77,
+    questions: "Entrance",
+    answer: "Алу кету"
+  },{
+    id: 78,
+    questions: "Gateway",
+    answer: "Шлюз"
+  },{
+    id: 79,
+    questions: "Weird",
+    answer: "Таңқаларлық"
+  },{
+    id: 80,
+    questions: "Aspiring",
+    answer: "Ұмытылатын"
+  },{
+    id: 81,
+    questions: "Chore",
+    answer: "Үй шаруасы"
+  },{
+    id: 82,
+    questions: "Established",
+    answer: "Құру"
+  },{
+    id: 83,
+    questions: "Flavor",
+    answer: "Дәм"
+  },{
+    id: 84,
+    questions: "Chewing",
+    answer: "Шайнау"
+  },{
+    id: 85,
+    questions: "Gum",
+    answer: "Сағыз"
+  },{
+    id: 86,
+    questions: "Consumption",
+    answer: "Тұтыну"
+  },{
+    id: 87,
+    questions: "Aftertaste",
+    answer: "Послевкусие"
+  },{
+    id: 88,
+    questions: "Evidence",
+    answer: "Ділелдеме"
+  },{
+    id: 89,
+    questions: "Concern",
+    answer: "Аландаушылық"
+  },{
+    id: 90,
+    questions: "Willing",
+    answer: "Дайын болу"
+  },{
+    id: 91,
+    questions: "Payoff",
+    answer: "Өтемақы"
+  },{
+    id: 92,
+    questions: "Сrowded",
+    answer: "Толған"
+  },{
+    id: 93,
+    questions: "Bias",
+    answer: "Бейімділік"
+  },{
+    id: 94,
+    questions: "Instant",
+    answer: "Лезде"
+  },{
+    id: 95,
+    questions: "Obesity",
+    answer: "Семіздік"
+  },{
+    id: 96,
+    questions: "Stick",
+    answer: "Таяқша"
+  },{
+    id: 97,
+    questions: "Resisting",
+    answer: "Қарсыласу"
+  },{
+    id: 98,
+    questions: "Deprive",
+    answer: "Айыру"
+  },{
+    id: 99,
+    questions: "Leisurely",
+    answer: "Жайбарақат"
+  },{
+    id: 100,
+    questions: "Bowl",
+    answer: "Чаша"
+  },{
+    id: 101,
+    questions: "Vote",
+    answer: "Дауыс"
+  },{
+    id: 102,
+    questions: "Luxury",
+    answer: "Сән-салтанат"
+  },{
+    id: 103,
+    questions: "Align",
+    answer: "Туралау, Тегістеу"
+  },{
+    id: 104,
+    questions: "Reinforcer",
+    answer: "Күшейткіш"
+  },{
+    id: 105,
+    questions: "Bowl",
+    answer: "Чаша"
+  },
 ]
 
 export const periodsEnglish = [{ name: 'Words', slug: 1 }]
