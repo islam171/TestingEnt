@@ -27,11 +27,11 @@ export const useQuiz = (questionsData: IQuestion[]) => {
 
     useEffect(() => {
         if(status === 'Finished') return
-        const handleKeyDown = (e: events) => {
+        const handleKeyDown = (e: KeyboardEvent) => {
             switch (e.key) {
                 case ' ': {
                     e.preventDefault()
-                    flipCard()
+                    showAnswer()
                     break
                 }
                 case 'ArrowRight':
@@ -54,7 +54,7 @@ export const useQuiz = (questionsData: IQuestion[]) => {
             document.addEventListener('keydown', handleKeyDown)
         }
         return () => document.removeEventListener('keydown', handleKeyDown)
-    }, [])
+    }, [status])
 
     function shuffle(array: IQuestion[]) : IQuestion[] {
         return array.sort(() => Math.random() - 0.5);
