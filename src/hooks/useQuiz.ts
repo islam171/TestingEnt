@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import type {IQuestion} from "../models/questions.js";
+import * as events from "node:events";
 
 
 export const useQuiz = (questionsData: IQuestion[]) => {
@@ -26,7 +27,7 @@ export const useQuiz = (questionsData: IQuestion[]) => {
 
     useEffect(() => {
         if(status === 'Finished') return
-        const handleKeyDown = (e: any) => {
+        const handleKeyDown = (e: events) => {
             switch (e.key) {
                 case ' ': {
                     e.preventDefault()
