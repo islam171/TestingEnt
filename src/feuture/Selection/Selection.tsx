@@ -1,11 +1,18 @@
 import styles from './Selection.module.css'
 import cn from 'classnames'
+import type {ISelectionItem} from "./types.js";
 
-const Selection = ({ value, values, toggleSelection }) => {
+interface ISelection {
+    value: number,
+    values: ISelectionItem[],
+    toggleSelection: (slug: number) => void
+}
+
+const Selection = ({ value, values, toggleSelection }: ISelection) => {
 	return (
 		<div className={styles.Selection}>
 			{values &&
-				values.map((item, index) => (
+				values.map((item: ISelectionItem, index: number) => (
 					<div
 						key={`${item.name}${index}`}
 						className={cn(

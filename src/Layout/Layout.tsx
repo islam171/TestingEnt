@@ -1,4 +1,4 @@
-import Header from './Header/Header.jsx'
+import Header from './Header/Header.js'
 import {Outlet} from 'react-router-dom'
 
 const Layout = () => {

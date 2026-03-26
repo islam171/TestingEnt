@@ -1,4 +1,4 @@
-export const subjectList = [
+export const subjectList: {name: string, nameRus: string, path: string}[] = [
 	{
 		name: "History",
 		nameRus: "История",
